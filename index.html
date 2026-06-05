@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeisson Rojas · Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════ NAV ═══════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#hero">JR<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="glow g1"></div>
+      <div class="glow g2"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow"><span class="mono">&gt;_</span> Data Analyst · BI · Analytics Engineering</p>
+      <h1 class="hero-title">
+        Jeisson<br />
+        <em>Steve Rojas</em>
+      </h1>
+      <p class="hero-sub">I transform raw data into decisions.<br />SQL · Python · Power BI · GA4 · Looker Studio</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="https://github.com/jeisteve999" target="_blank" class="btn-ghost">GitHub ↗</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-n" data-target="3">0</span><span class="stat-l">Projects</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-n" data-target="5">0</span><span class="stat-l">Tools</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-n" data-target="100000" data-suffix="K+">0</span><span class="stat-l">Rows Analyzed</span></div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <span class="section-tag">About me</span>
+          <h2>Data Analyst with a business-first mindset</h2>
+          <p>I'm Jeisson Steve Rojas Velásquez, a data analyst based in Colombia. I specialize in turning messy, complex datasets into clear business insights using SQL, Python, Power BI, Excel, and Google Analytics.</p>
+          <p>My work bridges the gap between raw numbers and strategic decisions — I don't just build dashboards, I <strong>tell the story behind the data</strong> and identify the opportunities hiding inside it.</p>
+          <div class="about-badges">
+            <span class="badge">📊 BI & Dashboards</span>
+            <span class="badge">🔍 EDA & Statistics</span>
+            <span class="badge">⚙️ ETL & Data Modeling</span>
+            <span class="badge">📈 Analytics Engineering</span>
+            <span class="badge">🎯 Business Intelligence</span>
+          </div>
+        </div>
+        <div class="about-visual reveal">
+          <div class="about-card">
+            <div class="ac-row"><span class="ac-label mono">Role</span><span>Data Analyst</span></div>
+            <div class="ac-row"><span class="ac-label mono">Location</span><span>Colombia 🇨🇴</span></div>
+            <div class="ac-row"><span class="ac-label mono">Focus</span><span>BI · Analytics · Insights</span></div>
+            <div class="ac-row"><span class="ac-label mono">GitHub</span><a href="https://github.com/jeisteve999" target="_blank">jeisteve999 ↗</a></div>
+            <div class="ac-divider"></div>
+            <p class="ac-quote">"Behind every data point is a decision waiting to be made better."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ SKILLS ═══════════════════════════════ -->
+  <section id="skills">
+    <div class="container">
+      <span class="section-tag reveal">Technical Stack</span>
+      <h2 class="section-title reveal">Tools & Technologies</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🗄️</div>
+          <h3>SQL</h3>
+          <p>Advanced queries, stored procedures, triggers, data modeling, joins, indexes, CTEs</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🐍</div>
+          <h3>Python</h3>
+          <p>Data cleaning, EDA, statistical analysis, pandas, numpy, matplotlib</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">📊</div>
+          <h3>Power BI</h3>
+          <p>DAX measures, data models, calculated columns, interactive dashboards</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">📗</div>
+          <h3>Excel & Sheets</h3>
+          <p>Power Query, Power Pivot, pivot tables, advanced formulas, ETL workflows</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">📈</div>
+          <h3>GA4 & GTM</h3>
+          <p>Event tracking, funnel analysis, conversion setup, attribution modeling</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🔵</div>
+          <h3>Looker Studio</h3>
+          <p>Executive dashboards, data blending, stakeholder-ready reports</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:78%"></div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ PROJECTS ═══════════════════════════════ -->
+  <section id="projects">
+    <div class="container">
+      <span class="section-tag reveal">Portfolio</span>
+      <h2 class="section-title reveal">Featured Projects</h2>
+      <p class="section-sub reveal">Each project follows the full data lifecycle: Problem → Data → Analysis → Solution → Impact</p>
+
+      <!-- PROJECT CARDS INDEX -->
+      <div class="project-index reveal">
+        <button class="pindex-btn active" data-project="p1">01 · SaaS Analytics</button>
+        <button class="pindex-btn" data-project="p2">02 · Brazilian E-Commerce</button>
+        <button class="pindex-btn" data-project="p3">03 · Coffee & Bean Sales</button>
+        <button class="pindex-btn" data-project="p4">04 · Email Automation</button>
+      </div>
+
+      <!-- ─── PROJECT 1: SaaS ─── -->
+      <div class="project-detail active" id="p1">
+        <div class="pd-header">
+          <div>
+            <span class="pd-num mono">01</span>
+            <h3 class="pd-title">SaaS Conversion Funnel & Attribution</h3>
+            <p class="pd-client">Client: WinningHunter · Feb–Mar 2026</p>
+          </div>
+          <div class="pd-tags">
+            <span>GA4</span><span>GTM</span><span>Looker Studio</span><span>Funnel Analysis</span><span>Attribution</span>
+          </div>
+        </div>
+
+        <!-- KPI Cards -->
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <span class="kpi-val">54,735</span>
+            <span class="kpi-label">Total Users</span>
+          </div>
+          <div class="kpi-card accent">
+            <span class="kpi-val">0.89%</span>
+            <span class="kpi-label">Landing → Payment Conv.</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">824</span>
+            <span class="kpi-label">Successful Subscriptions</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">55.6%</span>
+            <span class="kpi-label">Revenue from Google</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">97.7%</span>
+            <span class="kpi-label">Drop-off Signup→Payment</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">1.49M</span>
+            <span class="kpi-label">Events Processed</span>
+          </div>
+        </div>
+
+        <!-- Story -->
+        <div class="pd-story">
+          <div class="story-block">
+            <h4>🎯 Business Problem</h4>
+            <p>WinningHunter, a SaaS product, had no visibility into where users came from, how they moved through the conversion funnel, or which traffic sources were actually generating revenue. Marketing spend was flying blind.</p>
+          </div>
+          <div class="story-block">
+            <h4>🔧 Methodology</h4>
+            <ul>
+              <li>Configured <strong>Google Tag Manager</strong> (v33) with 6 custom events: Landing, Signup Started, Payment, Thank You, form_start, successful_subscription</li>
+              <li>Built a 4-step conversion funnel in <strong>GA4</strong> (Landing → Signup → Payment → Thank You)</li>
+              <li>Created attribution explorations: Revenue by Traffic Source filtered by successful_subscription event</li>
+              <li>Analyzed user behavior by city, device category and traffic source</li>
+              <li>Delivered a full <strong>Looker Studio dashboard</strong> with funnel visualization, drop-off analysis, and attribution tables</li>
+            </ul>
+          </div>
+          <div class="story-block">
+            <h4>💡 Key Findings</h4>
+            <ul>
+              <li>The critical bottleneck is Signup → Payment: <strong>97.7% abandonment rate</strong> — the largest drop in the entire funnel</li>
+              <li>Google (organic + paid) drives <strong>55.6%</strong> of successful subscriptions; direct traffic accounts for 34.7%</li>
+              <li>Desktop accounts for <strong>89.5%</strong> of all events; product is primarily used on desktop</li>
+              <li>Top cities by engagement: Istanbul, Amsterdam, Kuala Lumpur, Rotterdam, Baltimore</li>
+              <li>/winning-products-finder has a <strong>69% bounce rate</strong> — highest on the platform, flagging a UX issue</li>
+            </ul>
+          </div>
+          <div class="story-block">
+            <h4>📌 Business Recommendations</h4>
+            <ul>
+              <li>Investigate and optimize the Signup → Payment step to reduce 97.7% abandonment — this is the highest-leverage improvement available</li>
+              <li>Double down on Google channels (organic + paid) as primary revenue drivers</li>
+              <li>Fix /winning-products-finder UX to reduce 69% bounce rate</li>
+              <li>Build a mobile-first experience: only 10% of traffic comes from mobile, suggesting potential untapped audience</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Funnel Visualization -->
+        <div class="funnel-viz">
+          <h4>Conversion Funnel</h4>
+          <div class="fv-steps">
+            <div class="fv-step">
+              <div class="fv-bar" style="width:100%; background:#4A6FDC;">Landing<span>52,954 · 100%</span></div>
+            </div>
+            <div class="fv-drop">↓ 61.2% drop-off</div>
+            <div class="fv-step">
+              <div class="fv-bar" style="width:38.8%; background:#6B8DE8;">Signup Started<span>20,600 · 38.8%</span></div>
+            </div>
+            <div class="fv-drop critical">↓ 97.7% drop-off ⚠️ Critical</div>
+            <div class="fv-step">
+              <div class="fv-bar" style="width:2%; background:#E8956B;">Payment<span>470 · 0.89%</span></div>
+            </div>
+            <div class="fv-drop">↓ 0% drop-off</div>
+            <div class="fv-step">
+              <div class="fv-bar" style="width:2%; background:#6BE89A;">Thank You<span>471 · 0.89%</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gallery -->
+        <div class="gallery-title">Project Gallery</div>
+        <div class="img-gallery">
+          <img src="assets/images/project1/dashboard_saas.png" alt="SaaS Dashboard" loading="lazy" onclick="openLightbox(this)" />
+          <img src="assets/images/project1/funnel.png" alt="GA4 Funnel" loading="lazy" onclick="openLightbox(this)" />
+          <img src="assets/images/project1/revenue_traffic.png" alt="Revenue by Traffic Source" loading="lazy" onclick="openLightbox(this)" />
+          <img src="assets/images/project1/tag_manager.png" alt="Google Tag Manager" loading="lazy" onclick="openLightbox(this)" />
+          <img src="assets/images/project1/events.png" alt="GA4 Events" loading="lazy" onclick="openLightbox(this)" />
+          <img src="assets/images/project1/thankyou.png" alt="Thank You Funnel Step" loading="lazy" onclick="openLightbox(this)" />
+        </div>
+
+        <div class="pd-links">
+          <a href="#" class="btn-primary" target="_blank">View Dashboard ↗</a>
+          <a href="https://github.com/jeisteve999" class="btn-ghost" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+
+      <!-- ─── PROJECT 2: Brazil E-Commerce ─── -->
+      <div class="project-detail" id="p2">
+        <div class="pd-header">
+          <div>
+            <span class="pd-num mono">02</span>
+            <h3 class="pd-title">Brazilian E-Commerce Analysis</h3>
+            <p class="pd-client">Olist Public Dataset · June 2025</p>
+          </div>
+          <div class="pd-tags">
+            <span>SQL</span><span>Excel</span><span>Power BI</span><span>Power Query</span><span>DAX</span><span>EDA</span>
+          </div>
+        </div>
+
+        <div class="kpi-grid">
+          <div class="kpi-card accent">
+            <span class="kpi-val">100K+</span>
+            <span class="kpi-label">Orders Analyzed</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">9</span>
+            <span class="kpi-label">Datasets Integrated</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">8</span>
+            <span class="kpi-label">Dashboards Built</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">$1.6B+</span>
+            <span class="kpi-label">Revenue Modeled (BRL)</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">27</span>
+            <span class="kpi-label">Brazilian States</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">2016–18</span>
+            <span class="kpi-label">Time Period Covered</span>
+          </div>
+        </div>
+
+        <div class="pd-story">
+          <div class="story-block">
+            <h4>🎯 Business Problem</h4>
+            <p>Olist, Brazil's largest e-commerce platform, needed a comprehensive analysis of sales performance, customer behavior, logistics efficiency, and payment patterns across all Brazilian states to identify growth opportunities and operational weaknesses.</p>
+          </div>
+          <div class="story-block">
+            <h4>🔧 Methodology</h4>
+            <ul>
+              <li><strong>ETL in Excel</strong>: Power Query cleaning — null/blank handling, column merging via primary keys, date/currency format normalization</li>
+              <li><strong>SQL analysis</strong>: Imported 9 CSV tables, defined PKs/FKs, created stored procedures for monthly sales by payment type, triggers for cancellation flagging and late delivery tracking</li>
+              <li><strong>EDA</strong>: Descriptive statistics (mean, median, std dev, skewness, kurtosis, IQR) across 8 business dimensions: Sales, Customers, Payments, Products, Sellers, Geography, Reviews, Temporal</li>
+              <li><strong>Visualization</strong>: 8 dual dashboards (Excel + Power BI) with interactive slicers by year, payment type, and order status</li>
+            </ul>
+          </div>
+          <div class="story-block">
+            <h4>💡 Key Findings</h4>
+            <ul>
+              <li><strong>São Paulo dominates</strong> all metrics: 41,746 customers, $599M spend, 1,849 sellers, $1.02B seller revenue, fastest deliveries (≤9 days)</li>
+              <li><strong>Credit card</strong> is the primary payment method: 76,795 transactions, $1.25B in sales</li>
+              <li><strong>Health & Beauty</strong> is the top-selling category at $125.8M; Furniture & Decor leads in shipment weight at 7,993 tons</li>
+              <li>Sales grew <strong>14,700%</strong>: from $4.97M (2016) to $738.6M (2018)</li>
+              <li>56% of all reviews are 5-star; delivered orders receive far more positive reviews than undelivered</li>
+              <li>High skewness (3.86–4.50) across sales variables confirms extreme regional concentration</li>
+            </ul>
+          </div>
+          <div class="story-block">
+            <h4>📌 Business Recommendations</h4>
+            <ul>
+              <li>Optimize logistics in SP to reduce freight costs ($71.8M) and expand pickup-point network</li>
+              <li>Promote installment payments in low-demand states to increase average order value</li>
+              <li>Address Sports & Leisure cancellations (51 cancellations) — investigate product quality and delivery</li>
+              <li>Expand seller network in underperforming regions with targeted onboarding incentives</li>
+              <li>Launch seasonal campaigns (Children's Day, local holidays) to capture regional demand spikes</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Sales growth visual -->
+        <div class="growth-viz">
+          <h4>Sales Growth 2016–2018</h4>
+          <div class="gv-bars">
+            <div class="gv-bar-wrap">
+              <div class="gv-bar" style="height:3%"><span class="gv-label">2016<br/>$4.97M</span></div>
+            </div>
+            <div class="gv-bar-wrap">
+              <div class="gv-bar" style="height:55%"><span class="gv-label">2017<br/>$615.6M</span></div>
+            </div>
+            <div class="gv-bar-wrap">
+              <div class="gv-bar" style="height:100%"><span class="gv-label">2018<br/>$738.6M</span></div>
+            </div>
+          </div>
+          <p class="gv-note">+14,700% growth across 3 years · 100K+ orders processed</p>
+        </div>
+
+        <div class="gallery-title">Project Gallery</div>
+        <div class="img-gallery">
+          <img src="assets/images/project2/brazil_sales.png" alt="Sales Dashboard" loading="lazy" onclick="openLightbox(this)" />
+          <img src="assets/images/project2/brazil_customers.png" alt="Customer Dashboard" loading="lazy" onclick="openLightbox(this)" />
+          <img src="assets/images/project2/brazil_payments.png" alt="Payment Dashboard" loading="lazy" onclick="openLightbox(this)" />
+          <img src="assets/images/project2/brazil_products.png" alt="Products Dashboard" loading="lazy" onclick="openLightbox(this)" />
+        </div>
+
+        <div class="pd-links">
+          <a href="https://github.com/jeisteve999/Brazilian-E-Commerce-Public-Dataset" class="btn-primary" target="_blank">View on GitHub ↗</a>
+        </div>
+      </div>
+
+      <!-- ─── PROJECT 3: Coffee ─── -->
+      <div class="project-detail" id="p3">
+        <div class="pd-header">
+          <div>
+            <span class="pd-num mono">03</span>
+            <h3 class="pd-title">Coffee Bean Sales — Profitability & Customer Segmentation</h3>
+            <p class="pd-client">Kaggle Public Dataset · May 2025</p>
+          </div>
+          <div class="pd-tags">
+            <span>Excel</span><span>Power BI</span><span>SQL</span><span>Power Query</span><span>EDA</span><span>Segmentation</span>
+          </div>
+        </div>
+
+        <div class="kpi-grid">
+          <div class="kpi-card accent">
+            <span class="kpi-val">1,000+</span>
+            <span class="kpi-label">Coffee Orders Analyzed</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">3</span>
+            <span class="kpi-label">Countries Covered</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">$470K</span>
+            <span class="kpi-label">Liberica Total Revenue</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">13%</span>
+            <span class="kpi-label">Liberica Profit-to-Price</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">2019–22</span>
+            <span class="kpi-label">Time Range</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">4</span>
+            <span class="kpi-label">Coffee Types Analyzed</span>
+          </div>
+        </div>
+
+        <div class="pd-story">
+          <div class="story-block">
+            <h4>🎯 Business Problem</h4>
+            <p>A coffee distributor needed to understand which coffee types and roast levels were truly profitable (not just most sold), which customer segments offered the best lifetime value, and how to optimize their product mix across the US, UK, and Ireland markets.</p>
+          </div>
+          <div class="story-block">
+            <h4>🔧 Methodology</h4>
+            <ul>
+              <li><strong>Excel ETL</strong>: Power Query cleaning, custom columns (Profit Margin, Profit-to-Price Index), null handling for email/phone fields</li>
+              <li><strong>SQL analysis</strong>: Stored procedures for monthly/type-based sales, joins across orders/customers/products tables</li>
+              <li><strong>EDA</strong>: Statistical analysis (mean, median, std dev, skewness, kurtosis) on Unit Price, Profit, Profit Margin, Quantity</li>
+              <li><strong>Dashboards</strong>: 3 dashboards (Consumption Trends, Prices & Profitability, Customer Clusters) in both Excel and Power BI</li>
+            </ul>
+          </div>
+          <div class="story-block">
+            <h4>💡 Key Findings</h4>
+            <ul>
+              <li><strong>Liberica is the most profitable</strong> coffee — not the most sold. 13% return per dollar vs. Robusta's 6%</li>
+              <li><strong>Arabica leads in volume</strong> (947 units) but is less efficient in profit per dollar</li>
+              <li>Light Roast is the most popular overall; US customers strongly prefer it</li>
+              <li><strong>US market dominates</strong> with 2,760 units sold and 371 loyalty card holders vs. 81 (Ireland) and 27 (UK)</li>
+              <li>2021 was the peak profitability year (32% margin); 2022 saw a sharp decline to 16%</li>
+              <li>Unit price ranges from $2.69 to $36.46 — highly varied price structure with right-skewed distribution (skewness: 0.99)</li>
+            </ul>
+          </div>
+          <div class="story-block">
+            <h4>📌 Business Recommendations</h4>
+            <ul>
+              <li>Promote Liberica in premium formats (capsules, cold brew, limited editions) to capitalize on its 13% profit efficiency</li>
+              <li>Expand Arabica + Light Roast availability as the top demand combination</li>
+              <li>Invest in loyalty programs for UK and Ireland — loyalty card penetration is critically low</li>
+              <li>Investigate 2022 profit drop — potential causes: cost increases, pricing erosion, or competitor entry</li>
+              <li>Develop cross-sell bundles (coffee + complementary products) to increase ticket size for small-format buyers</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="gallery-title">Project Gallery</div>
+        <div class="img-gallery">
+          <img src="assets/images/project3/coffee_cover.png" alt="Coffee Sales — Project Overview" loading="lazy" onclick="openLightbox(this)" />
+          <img src="assets/images/project3/coffee_consumption.png" alt="Consumption Trends Dashboard" loading="lazy" onclick="openLightbox(this)" />
+          <img src="assets/images/project3/coffee_profitability1.png" alt="Prices & Profitability — Country & Roast" loading="lazy" onclick="openLightbox(this)" />
+          <img src="assets/images/project3/coffee_profitability2.png" alt="Prices & Profitability — Trends & Efficiency Index" loading="lazy" onclick="openLightbox(this)" />
+          <img src="assets/images/project3/coffee_clusters.png" alt="Customer Clusters Dashboard" loading="lazy" onclick="openLightbox(this)" />
+        </div>
+
+        <div class="pd-links">
+          <a href="https://github.com/jeisteve999/Coffee-Bean-Sales-Comprehensive-Insights-into-Coffee-Orders-Customers-and-Products" class="btn-primary" target="_blank">View on GitHub ↗</a>
+        </div>
+      </div>
+
+      <!-- ─── PROJECT 4: Email Automation ─── -->
+      <div class="project-detail" id="p4">
+        <div class="pd-header">
+          <div>
+            <span class="pd-num mono">04</span>
+            <h3 class="pd-title">Automated Email Data Extraction</h3>
+            <p class="pd-client">n8n + Power Automate · Google Sheets · March 2026</p>
+          </div>
+          <div class="pd-tags">
+            <span>n8n</span><span>Power Automate</span><span>OpenAI API</span><span>Google Sheets</span><span>Gmail</span><span>Automation</span>
+          </div>
+        </div>
+
+        <div class="kpi-grid">
+          <div class="kpi-card accent">
+            <span class="kpi-val">2</span>
+            <span class="kpi-label">Automation Workflows Built</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">200</span>
+            <span class="kpi-label">Rows Auto-Generated</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">0</span>
+            <span class="kpi-label">Manual Data Entry</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">5</span>
+            <span class="kpi-label">Fields Extracted per Email</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">AI</span>
+            <span class="kpi-label">OpenAI Agent for Parsing</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">Real-time</span>
+            <span class="kpi-label">Trigger-based Execution</span>
+          </div>
+        </div>
+
+        <div class="pd-story">
+          <div class="story-block">
+            <h4>🎯 Business Problem</h4>
+            <p>Organizations receive high volumes of emails containing structured information — patient records, invoices, registrations, leads — that must be manually copied into spreadsheets. This process is slow, error-prone, and doesn't scale. The challenge was to build a fully automated pipeline that extracts key fields from incoming emails and logs them into a structured format with zero manual intervention.</p>
+          </div>
+
+          <div class="story-block">
+            <h4>🔧 Solution 1: n8n + OpenAI Agent</h4>
+            <ul>
+              <li>Trigger: <strong>Manual execution</strong> fetches batch of Gmail messages via the Gmail node</li>
+              <li>Edit Fields node structures the raw email payload (Date, Name, Email, Subject, Message)</li>
+              <li>An <strong>AI Agent powered by OpenAI GPT</strong> parses and normalizes each email body — extracting entities, cleaning formatting, and standardizing values</li>
+              <li>Edit Fields2 maps the agent output to the target schema</li>
+              <li>Append Row node writes structured data to <strong>Google Sheets automatically</strong></li>
+              <li>Get Rows confirms 200 rows successfully written after execution</li>
+            </ul>
+          </div>
+
+          <div class="story-block">
+            <h4>🔧 Solution 2: Power Automate Flow</h4>
+            <ul>
+              <li>Trigger: <strong>"When a new email arrives"</strong> (Outlook V3) — fully real-time, no manual execution needed</li>
+              <li>Get Email (V2) fetches the full email body</li>
+              <li>Convert HTML to Text step cleans rich-text formatting</li>
+              <li>Sequential <strong>Compose actions</strong> extract: Received Time, Patient Name, Patient Address, Aide Name, and Date</li>
+              <li>Output is written to <strong>Excel Online</strong> row-by-row on each new incoming email</li>
+            </ul>
+          </div>
+
+          <div class="story-block">
+            <h4>💡 Key Findings & Impact</h4>
+            <ul>
+              <li>Both workflows achieve <strong>100% hands-free data extraction</strong> — no human copy-paste required</li>
+              <li>The n8n + AI Agent approach handles <strong>unstructured email bodies</strong> where field positions are inconsistent</li>
+              <li>The Power Automate flow excels for <strong>real-time, structured emails</strong> (like patient care notifications) where fields are predictable</li>
+              <li>Google Sheets output achieved <strong>200 rows in a single execution</strong> from 10 email batches</li>
+              <li>Demonstrates practical use of <strong>AI + automation</strong> for operational data pipelines, not just reporting</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Architecture flow -->
+        <div class="funnel-viz">
+          <h4>Pipeline Architecture — n8n Workflow</h4>
+          <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-top:8px;">
+            <div style="background:var(--surface2); border:1px solid var(--border2); border-radius:8px; padding:10px 16px; font-size:.82rem; font-family:var(--font-mono); color:var(--text2);">⚡ Trigger</div>
+            <span style="color:var(--text3); font-size:.8rem;">10 emails →</span>
+            <div style="background:var(--surface2); border:1px solid var(--border2); border-radius:8px; padding:10px 16px; font-size:.82rem; font-family:var(--font-mono); color:var(--text2);">📧 Gmail</div>
+            <span style="color:var(--text3); font-size:.8rem;">→</span>
+            <div style="background:var(--surface2); border:1px solid var(--border2); border-radius:8px; padding:10px 16px; font-size:.82rem; font-family:var(--font-mono); color:var(--text2);">✏️ Edit Fields</div>
+            <span style="color:var(--text3); font-size:.8rem;">→</span>
+            <div style="background:rgba(74,143,232,.15); border:1px solid rgba(74,143,232,.4); border-radius:8px; padding:10px 16px; font-size:.82rem; font-family:var(--font-mono); color:var(--accent);">🤖 AI Agent (OpenAI)</div>
+            <span style="color:var(--text3); font-size:.8rem;">→</span>
+            <div style="background:var(--surface2); border:1px solid var(--border2); border-radius:8px; padding:10px 16px; font-size:.82rem; font-family:var(--font-mono); color:var(--text2);">✏️ Map Fields</div>
+            <span style="color:var(--text3); font-size:.8rem;">→</span>
+            <div style="background:rgba(45,212,191,.1); border:1px solid rgba(45,212,191,.3); border-radius:8px; padding:10px 16px; font-size:.82rem; font-family:var(--font-mono); color:var(--accent2);">📊 Google Sheets</div>
+            <span style="color:var(--text3); font-size:.8rem;">200 rows ✓</span>
+          </div>
+        </div>
+
+        <div class="gallery-title">Project Gallery</div>
+        <div class="img-gallery">
+          <img src="assets/images/project4/n8n_flow.png" alt="n8n Automation Workflow" loading="lazy" onclick="openLightbox(this)" />
+          <img src="assets/images/project4/google_sheets_output.png" alt="Google Sheets — Auto-extracted Email Data" loading="lazy" onclick="openLightbox(this)" />
+          <img src="assets/images/project4/power_automate_flow.png" alt="Power Automate Flow — Email to Excel" loading="lazy" onclick="openLightbox(this)" />
+        </div>
+
+        <div class="pd-links">
+          <a href="https://github.com/jeisteve999" class="btn-primary" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+
+    </div><!-- /container -->
+  </section>
+
+  <!-- ═══════════════════════════════ CONTACT ═══════════════════════════════ -->
+  <section id="contact">
+    <div class="container">
+      <span class="section-tag reveal">Let's connect</span>
+      <h2 class="section-title reveal">Get in Touch</h2>
+      <p class="section-sub reveal">Open to freelance projects, collaborations, and full-time opportunities in data analytics and business intelligence.</p>
+      <div class="contact-grid reveal">
+        <a href="mailto:jeisteve333@gmail.com" class="contact-card">
+          <span class="cc-icon">✉️</span>
+          <span class="cc-label">Email</span>
+          <span class="cc-val">jeisteve333@gmail.com</span>
+        </a>
+        <a href="https://github.com/jeisteve999" target="_blank" class="contact-card">
+          <span class="cc-icon">⌨️</span>
+          <span class="cc-label">GitHub</span>
+          <span class="cc-val">jeisteve999</span>
+        </a>
+        <a href="https://www.linkedin.com/in/jeisson-rojas" target="_blank" class="contact-card">
+          <span class="cc-icon">💼</span>
+          <span class="cc-label">LinkedIn</span>
+          <span class="cc-val">Add your LinkedIn ↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+  <footer>
+    <div class="footer-inner">
+      <span class="nav-logo">JR<span class="dot">.</span></span>
+      <p>Jeisson Steve Rojas Velásquez · Data Analyst · Colombia</p>
+      <p class="footer-copy">Built with HTML · CSS · JS · Deployed on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Screenshot" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
